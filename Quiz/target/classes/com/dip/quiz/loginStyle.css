@@ -1,0 +1,57 @@
+.root {
+    -fx-background-color: grey; /* Light gray background */
+    -fx-font-family: Arial, sans-serif;
+}
+
+.text-field {
+    -fx-pref-width: 300px;
+    -fx-padding: 10px;
+    -fx-font-size: 18px;
+    -fx-border-color: #007fff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-focus-color: #007fff;
+    -fx-faint-focus-color: rgba(0,127,255,0.1);
+    -fx-effect: dropshadow(gaussian, rgba(0,127,255,0.75), 10, 0, 0, 0);
+}
+
+.button {
+    -fx-pref-width: 200px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+    -fx-background-color: linear-gradient(to bottom right, #6e7dff, #6673ff);
+    -fx-effect: dropshadow(gaussian, rgba(170,170,170,0.75), 10, 0, 5, 5);
+    -fx-cursor: hand;
+    -fx-padding: 10px;
+    -fx-margin: 10px 0; /* Add margin between buttons */
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom right, #6673ff, #6e7dff);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom right, #5b66e1, #5360e1);
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 20px 0;
+}
+
+.container {
+    -fx-alignment: center;
+    -fx-spacing: 15px;
+    -fx-padding: 30px;
+    -fx-alignment: center; /* Ensure all items are centered */
+}
+
+.vbox {
+    -fx-alignment: center; /* Ensure the VBox contents are centered */
+}
